@@ -30,6 +30,12 @@ const Login = () => {
     } catch (e) {
       console.error(e);
     }
+       // clear form values
+       setUserFormData({
+        username: "",
+        email: "",
+        password: "",
+      });
   };
 
   return (
