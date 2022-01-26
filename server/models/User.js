@@ -1,5 +1,6 @@
 const { Schema, model } = require('mongoose');
 const bcrypt = require('bcrypt');
+const emotionSchema = require('./Emotion');
 
 const userSchema = new Schema(
     {
