@@ -53,6 +53,7 @@ const Login = () => {
                 id="email"
                 value={userFormData.email}
                 onChange={handleChange}
+                required
               />
               <input
                 className="form-input"
@@ -62,6 +63,7 @@ const Login = () => {
                 id="password"
                 value={userFormData.password}
                 onChange={handleChange}
+                required
               />
               <button className="btn d-block w-100" type="submit">
                 Submit

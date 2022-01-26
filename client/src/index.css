@@ -1,13 +1,82 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Righteous&display=swap');
+
+/* clear browser styles */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  background: #c6e2e9;
+  color: var(--primary-color);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* color pallet */
+:root{
+  --primary-color: #7a9dbc;
+  --secondary-color: #828c51;
+  --tertiary-color: #c08497;
 }
+
+/* login/sign up styles */
+.container {
+  display: block;
+  text-align: center;
+  align-items: center;
+}
+
+.container a {
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.title{
+  margin-top: 150px;
+  margin-bottom: 20px;
+  font-size: 90px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(var(--secondary-color), var(--primary-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-header {
+  font-size: 55px;
+  margin-top: 30px;
+}
+
+.form-input {
+  flex: 100%;
+  height: 40px;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid var(--primary-color);
+  border-radius: 20px;
+  width: 50%;
+  background: transparent !important;
+  color: black;
+  font-weight: bold;
+}
+
+.form-input:focus{
+  box-shadow: #c08497 0px 3px 10px;
+  outline: none;
+}
+
+.btn {
+  height: 15px;
+  padding: 20px;
+  margin: 10px;
+  border: 4px solid var(--primary-color);
+  border-radius: 20px;
+  cursor: pointer;
+  width: 50%;
+  color: gray;
+}
+
+.btn:hover {
+  box-shadow: var(--tertiary-color) 0px 3px 10px;
+}
+
+/* end login/sign up styles */
+
+/* header styles */

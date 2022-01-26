@@ -56,6 +56,7 @@ const Signup = () => {
                 id="username"
                 value={formState.username}
                 onChange={handleChange}
+                required
               />
               <input
                 className="form-input"
@@ -65,6 +66,7 @@ const Signup = () => {
                 id="email"
                 value={formState.email}
                 onChange={handleChange}
+                required
               />
               <input
                 className="form-input"
@@ -74,8 +76,9 @@ const Signup = () => {
                 id="password"
                 value={formState.password}
                 onChange={handleChange}
+                required
               />
-              <button className="btn d-block w-100" type="submit">
+              <button className="btn" type="submit">
                 Submit
               </button>
             </form>
