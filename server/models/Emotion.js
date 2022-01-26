@@ -8,6 +8,7 @@ const emotionSchema = new Schema({
     ],
 
     emotion: {
-        
+        type: String,
+
     }
 })
