@@ -8,7 +8,8 @@ const app = express();
 
 const server = new ApolloServer({
   typeDefs,
-  resolvers
+  resolvers,
+  context: authMiddleware
 });
 
 server.applyMiddleware({ app });
