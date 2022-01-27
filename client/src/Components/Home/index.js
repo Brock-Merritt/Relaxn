@@ -13,11 +13,11 @@ function Home() {
                 <Link to="/tired">😴</Link>
             </div>
             <div class="emotion-name">
-                <div className="Col sm={2}">Happy</div>
-                <div className="Col sm={2}">Sad</div>
-                <div className="Col sm={2}">Stressed</div>
-                <div className="Col sm={2}">Angry</div>
-                <div className="Col sm={2}">Tired</div>
+                <div>Happy</div>
+                <div>Sad</div>
+                <div>Stressed</div>
+                <div>Angry</div>
+                <div>Tired</div>
             </div>
         </div>
     )
