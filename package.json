@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Brock-Merritt/Relaxn#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "if-env": "^1.0.4"
   },
   "devDependencies": {
