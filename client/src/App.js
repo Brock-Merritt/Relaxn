@@ -5,7 +5,7 @@ import ApolloClient from "apollo-boost";
 
 import Header from "./components/Header";
 import Home from "./components/Home";
-
+import Footer from './components/Footer'
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 
@@ -36,6 +36,7 @@ function App() {
             </Switch>
           </div>
         </>
+        <Footer />
       </Router>
     </ApolloProvider>
   );
