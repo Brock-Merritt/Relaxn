@@ -4,6 +4,7 @@ import { ApolloProvider } from "@apollo/react-hooks";
 import ApolloClient from "apollo-boost";
 
 import Header from "./components/Header";
+import Home from "./components/Home";
 
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
@@ -26,14 +27,15 @@ function App() {
     <ApolloProvider client={client}>
       <Router>
         <>
-        <Header />
+          <Header />
           <div className="container">
             <Switch>
-              <Route exact path="/login" component={Login}/>
-              <Route exact path="/signup" component={Signup}/>
+              <Route exact path="/" component={Home} />
+              <Route exact path="/login" component={Login} />
+              <Route exact path="/signup" component={Signup} />
             </Switch>
           </div>
-          </>
+        </>
       </Router>
     </ApolloProvider>
   );
