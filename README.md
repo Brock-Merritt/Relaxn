@@ -1,4 +1,4 @@
-# Relaxn
+<h1 align="center">Relaxn</h1>
 
 
 
@@ -23,15 +23,19 @@
 
 ## Collaborators:
 
+[Andy Waine](https://github.com/Andy-Waine)
+
+[Bota Seri](https://github.com/Tari-Star)
+
 [Brock Merritt](https://github.com/Brock-Merritt)
 
 [Casey Lister](https://github.com/caseylister)
 
 [Detra Gordon](https://github.com/detrasmental)
 
-[Andy Waine](https://github.com/Andy-Waine)
 
-[Bota Seri](https://github.com/Tari-Star)
+
+
 
 ## Demo:
 
@@ -41,7 +45,7 @@
 
 **_GITHUB_**
 
-- Repository link:[]()
+- Repository link: https://github.com/Brock-Merritt/Relaxn
 
 **_SCREENSHOT_**
 
