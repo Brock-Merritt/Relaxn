@@ -70,11 +70,11 @@ Run the following commands:
 
 ## Questions?
 
-<img src="https://avatars.githubusercontent.com/u/88811836?v=4" alt="Brock Merritt" width="18%" />
-<img src="https://avatars.githubusercontent.com/u/61242698?v=4" alt="Casey Lister" width="18%" />
-<img src="https://avatars.githubusercontent.com/u/85942489?v=4" alt="Detra Gordon" width="18%" />
-<img src="https://avatars.githubusercontent.com/u/88730354?v=4" alt="Andy Waine" width="18%" />
-<img src="https://avatars.githubusercontent.com/u/89365355?v=4" alt="Bota Seri" width="18%" />
+<img src="https://avatars.githubusercontent.com/u/88811836?v=4" alt="Brock Merritt" width="16%" />
+<img src="https://avatars.githubusercontent.com/u/61242698?v=4" alt="Casey Lister" width="16%" />
+<img src="https://avatars.githubusercontent.com/u/85942489?v=4" alt="Detra Gordon" width="16%" />
+<img src="https://avatars.githubusercontent.com/u/88730354?v=4" alt="Andy Waine" width="16%" />
+<img src="https://avatars.githubusercontent.com/u/89365355?v=4" alt="Bota Seri" width="16%" />
   
 
   For any questions about the repo, please contact us with the information below :
