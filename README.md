@@ -1,12 +1,22 @@
 <h1 align="center">Relaxn</h1>
 
 
-
-![MIT License](https://img.shields.io/badge/license-MIT-red)
-![repo size](https://img.shields.io/github/repo-size/Brock-Merritt/Relaxn?style=flat&logo=appveyor)
-![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/Brock-Merritt/Relaxn?style=flat&logo=appveyor)
-![Badge for GitHub last commit](https://img.shields.io/github/last-commit/Brock-Merritt/Relaxn?style=flat&logo=appveyor)
-![issues](https://img.shields.io/github/issues/Brock-Merritt/Relaxn?style=flat&logo=appveyor)
+<p align="center">
+<img src="https://img.shields.io/badge/license-MIT-red"/>
+<img src="https://img.shields.io/github/repo-size/Brock-Merritt/Relaxn?style=flat&logo=appveyor"/>
+<img src="https://img.shields.io/github/languages/top/Brock-Merritt/Relaxn?style=flat&logo=appveyor"/>
+<img src="https://img.shields.io/github/last-commit/Brock-Merritt/Relaxn?style=flat&logo=appveyor"/>
+<img src="https://img.shields.io/github/issues/Brock-Merritt/Relaxn?style=flat&logo=appveyor"/>
+</P>
+<p align="center">
+<img src="https://img.shields.io/badge/M.E.R.N.-white"/>
+</p>
+<p align="center">
+<img src="https://img.shields.io/badge/MongoDB-orange"/>
+  <img src="https://img.shields.io/badge/Express-purple" >
+<img src="https://img.shields.io/badge/React-yellow" />
+<img src="https://img.shields.io/badge/Node.js-blue"  />
+</p>
 
 ## Description:
 
