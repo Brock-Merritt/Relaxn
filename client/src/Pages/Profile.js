@@ -12,6 +12,7 @@ const Profile = () => {
       const user = data?.me || data?.user || {};
 
         // redirect to personal profile page if username is the logged-in user's
+        console.log(user);
   if (Auth.loggedIn() && Auth.getProfile().data.username === userParam) {
     return <Redirect to="/profile" />;
   }
@@ -29,8 +30,9 @@ const Profile = () => {
     return (
         <div>
         <div className="flex-row mb-3">
+            
           <h2 className="bg-dark text-secondary p-3 display-inline-block">
-            Viewing {userParam ? `${user.username}'s` : "your"} profile.
+            Viewing {user.username}'s profile.
           </h2>
  
             
