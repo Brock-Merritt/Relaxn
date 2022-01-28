@@ -30,7 +30,6 @@
 }
 
 .title{
-  margin-top: 150px;
   margin-bottom: 20px;
   font-size: 90px;
   font-weight: bold;
@@ -82,7 +81,7 @@
 /* header styles */
 .main-header {
   margin: 0px 10px;
-  display: inline-block;
+  /* display: inline-block; */
   flex-wrap: wrap;
 }
 

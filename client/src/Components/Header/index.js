@@ -14,7 +14,7 @@ const Header = () => {
           <h1 className="title">Relaxn</h1>
         </Link>
 
-        <nav className="text-center">
+        <nav>
           {AuthService.loggedIn() ? (
             <>
               <Link to="/profile">Me</Link>
