@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
     return (
-        <div id="page-container">
+        <div>
             <h1 className="main-title">How are you feeling today?</h1>
             <div className="emotion-icon">
                 <Link to="/Happy">😊</Link>

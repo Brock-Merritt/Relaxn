@@ -81,7 +81,7 @@
 /* header styles */
 .main-header {
   margin: 0px 10px;
-  /* display: inline-block; */
+  display: inline-block;
   flex-wrap: wrap;
 }
 
@@ -110,17 +110,18 @@
 
 .emotion-icon {
   /* font-size: 300px; */
-  margin: 40px 85px;
+  margin: 50px 85px;
   display: flex;
   justify-content: space-evenly;
 }
 
 
-.emotion-name div{
-  display: inline;
+.emotion-name {
+  display: flex;
+  justify-content: space-evenly;
   font-size: 35px;
   font-weight: bold;
-  padding: 45px 80px;
+  padding: 45px 105px;
   color: var(--secondary-color);
 }
 
@@ -131,4 +132,27 @@ footer {
   position: absolute;
   width: 100%;
   height: 2.5rem;
+}
+
+/* emotions styling */
+
+.card{
+  display: flex;
+  flex: 1 1;
+}
+
+.top-row, .bottom-row{
+  display: flex;
+  flex: 50%;
+  margin-top: 70px;
+  margin-left: 65px;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+
+.emotion-img {
+  width: 650px;
+  height: auto;
+  margin-left: 20px;
 }
