@@ -2,6 +2,10 @@ import { fromPromise } from '@apollo/react-hooks';
 import React from 'react';
 import { Link } from "react-router-dom";
 import Happy from "../../Pages/Happy/index.js";
+import Sad from "../../Pages/Sad/index.js";
+import Stressed from "../../Pages/Stressed/index.js";
+import Angry from "../../Pages/Angry/index.js";
+import Tired from "../../Pages/Tired/index.js";
 
 function Home() {
     return (

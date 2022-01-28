@@ -27,8 +27,7 @@ const Header = () => {
               <Link to="/login">Login</Link>
               <Link to="/signup">Signup</Link>
               <Link to="/profile">Profile</Link>
-              <Link to="/Happy">Happy</Link>
-              <Link to="/Sad">Sad</Link>
+
             </>
           )}
         </nav>
