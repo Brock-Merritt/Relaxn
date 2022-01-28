@@ -13,7 +13,7 @@ function Home() {
                 <Link to="/angry">😠</Link>
                 <Link to="/tired">😴</Link>
             </div>
-            <div class="emotion-name">
+            <div className="emotion-name">
                 <div>Happy</div>
                 <div>Sad</div>
                 <div>Stressed</div>

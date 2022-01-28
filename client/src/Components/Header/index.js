@@ -8,7 +8,7 @@ const Header = () => {
     Auth.logout();
   };
   return (
-    <header class="main-header">
+    <header className="main-header">
       <div>
         <Link to="/">
           <h1>Relaxn</h1>

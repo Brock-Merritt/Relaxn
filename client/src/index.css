@@ -102,7 +102,7 @@
 
 .main-title {
   font-size: 75px;
-  margin-top: 60px;
+  margin-top: 150px;
   margin-bottom: 80px;
   background: -webkit-linear-gradient(var(--secondary-color), var(--primary-color));
   -webkit-background-clip: text;
