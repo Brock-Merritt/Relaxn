@@ -8,16 +8,15 @@ const Header = () => {
     Auth.logout();
   };
   return (
-    <header class="main-header">
-      <div>
+    <header className="bg-secondary mb-4 py-2 flex-row align-center">
+      <div className="container flex-row justify-space-between-lg justify-center align-center">
         <Link to="/">
-          <h1>Relaxn</h1>
+          <h1 className="title">Relaxn</h1>
         </Link>
 
-        <nav className="main-nav">
+        <nav className="text-center">
           {Auth.loggedIn() ? (
             <>
-              <Link to="/home">Home</Link>
               <Link to="/profile">Me</Link>
               <a href="/" onClick={logout}>
                 Logout
@@ -27,6 +26,7 @@ const Header = () => {
             <>
               <Link to="/login">Login</Link>
               <Link to="/signup">Signup</Link>
+              <Link to="/profile">Profile</Link>
             </>
           )}
         </nav>
