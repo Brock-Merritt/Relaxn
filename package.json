@@ -21,12 +21,7 @@
   },
   "homepage": "https://github.com/Brock-Merritt/Relaxn#readme",
   "dependencies": {
-<<<<<<< HEAD
-    "@apollo/client": "^3.5.8",
-    "graphql": "^16.3.0",
-=======
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
->>>>>>> 589124758cbf552fc9de6fccb983200531870425
     "if-env": "^1.0.4"
   },
   "devDependencies": {
