@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Auth from "../../utils/auth";
+import AuthService from "../../utils/auth";
 
 const Header = () => {
   const logout = (event) => {
     event.preventDefault();
-    Auth.logout();
+    AuthService.logout();
   };
   return (
     <header className="main-header">
@@ -15,7 +15,7 @@ const Header = () => {
         </Link>
 
         <nav className="text-center">
-          {Auth.loggedIn() ? (
+          {AuthService.loggedIn() ? (
             <>
               <Link to="/profile">Me</Link>
               <a href="/" onClick={logout}>
@@ -34,4 +34,5 @@ const Header = () => {
     </header>
   );
 };
+
 export default Header;
