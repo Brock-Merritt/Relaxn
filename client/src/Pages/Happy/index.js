@@ -1,9 +1,9 @@
 import React from "react";
 
-function Happy(){
+const Happy = () =>  {
     return (
         <div>This is the happy page</div>
     )
 }
 
-module.exports = Happy;
+export default Happy;

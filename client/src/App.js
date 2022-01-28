@@ -10,6 +10,7 @@ import Footer from "./Components/Footer/index.js";
 import Signup from "./Pages/Signup.js";
 import Login from "./Pages/Login.js";
 import Profile from "./Pages/Profile.js";
+import Happy from "./Pages/Happy";
 
 const client = new ApolloClient({
   request: (operation) => {
@@ -36,6 +37,7 @@ function App() {
               <Route exact path="/login" component={Login} />
               <Route exact path="/signup" component={Signup} />
               <Route exact path="/profile/:username?" component={Profile} />
+              <Route exact path="/Happy" component={Happy} />
             </Switch>
           </div>
           

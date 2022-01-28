@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function Sad(){
+const Sad = () => {
     return(
         <>
         <div className="card">
@@ -31,3 +31,5 @@ function Sad(){
         </>
     )
 }
+
+export default Sad;
