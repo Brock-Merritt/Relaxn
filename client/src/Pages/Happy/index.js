@@ -1,6 +1,6 @@
 import React from "react";
 
-const Happy = () => {
+const Happy = () =>  {
     return (
         <div>This is the happy page</div>
     )
