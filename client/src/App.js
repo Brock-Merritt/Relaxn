@@ -7,8 +7,9 @@ import ApolloClient from "apollo-boost";
 import Header from "./components/Header/index.js";
 import Home from "./components/Home/index.js";
 import Footer from './components/Footer/index.js';
-import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import Login from "./pages/Login";
+
 import Profile from "./pages/Profile";
 
 const client = new ApolloClient({
