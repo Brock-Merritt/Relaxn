@@ -1,4 +1,3 @@
-import { fromPromise } from '@apollo/react-hooks';
 import React from 'react';
 import { Link } from "react-router-dom";
 import Happy from "../../Pages/Happy/index.js";
@@ -9,7 +8,7 @@ import Tired from "../../Pages/Tired/index.js";
 
 function Home() {
     return (
-        <div id="page-container">
+        <div>
             <h1 className="main-title">How are you feeling today?</h1>
             <div className="emotion-icon">
                 <Link to="/Happy">😊</Link>

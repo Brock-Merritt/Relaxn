@@ -11,6 +11,11 @@ import Signup from "./Pages/Signup.js";
 import Login from "./Pages/Login.js";
 import Profile from "./Pages/Profile.js";
 import Happy from "./Pages/Happy";
+import Sad from "./Pages/Sad";
+import Angry from "./Pages/Angry";
+import Stressed from "./Pages/Stressed";
+import Tired from "./Pages/Tired";
+
 
 const client = new ApolloClient({
   request: (operation) => {
@@ -38,6 +43,10 @@ function App() {
               <Route exact path="/signup" component={Signup} />
               <Route exact path="/profile/:username?" component={Profile} />
               <Route exact path="/Happy" component={Happy} />
+              <Route exact path="/Sad" component={Sad} />
+              <Route exact path="/Angry" component={Angry} />
+              <Route exact path="/Stressed" component={Stressed} />
+              <Route exact path="/Tired" component={Tired} />
             </Switch>
           </div>
           
