@@ -4,12 +4,12 @@ import { ApolloProvider } from "@apollo/react-hooks";
 import ApolloClient from "apollo-boost";
 
 
-import Header from "/components/Header/index.js";
-import Home from "/components/Home/index.js";
-import Footer from '/components/Footer/index.js';
-import Signup from "/pages/signup.js";
-import Login from "/pages/login.js";
-import Profile from "/pages/profile.js";
+import Header from "./components/Header/index.js";
+import Home from "./components/Home/index.js";
+import Footer from "./components/Footer/index.js";
+import Signup from "./pages/signup.js";
+import Login from "./pages/login.js";
+import Profile from "./pages/profile.js";
 
 const client = new ApolloClient({
   request: (operation) => {
