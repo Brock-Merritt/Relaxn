@@ -25,7 +25,7 @@
   "homepage": "https://github.com/Brock-Merritt/Relaxn#readme",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "apollo-server": "^2.25.3",
+    "apollo-server": "^2.15.0",
     "graphql": "^15.8.0",
     "if-env": "^1.0.4"
   },
