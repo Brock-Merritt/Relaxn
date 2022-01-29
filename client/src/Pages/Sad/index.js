@@ -1,5 +1,6 @@
 import React from "react";
 import cute from '../../assets/sad.jpg';
+import { Card } from 'react-bootstrap';
 
 const Sad = () => {
     return(
@@ -25,7 +26,7 @@ const Sad = () => {
 
 {/* how the layout will be once react-bootstrap imports correctly */}
 
-        {/* <div>
+        <div>
             <Card>
                 <Card.Img variant="top" src={cute} alt="Puppy and kitten cuddling!" />
                 <Card.Body>Enjoy this picture of a puppy and kitten cuddling!</Card.Body>
@@ -44,7 +45,7 @@ const Sad = () => {
                 <Card.Link />
                 <Card.Body>Enjoy this picture of a puppy and kitten cuddling!</Card.Body>
             </Card>
-        </div> */}
+        </div>
         </>
     )
 }
