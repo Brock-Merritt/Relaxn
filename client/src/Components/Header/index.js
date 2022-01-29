@@ -27,6 +27,7 @@ const Header = () => {
               <Link to="/login">Login</Link>
               <Link to="/signup">Signup</Link>
               <Link to="/profile">Profile</Link>
+              <a href="https://buy.stripe.com/test_3cseYn4CM5bi4Uw5kl" target="_blank">Donate</a>
 
             </>
           )}
