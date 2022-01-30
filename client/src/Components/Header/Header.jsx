@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../navbar/Navbar';
 
+
 import './Header.css';
 
 function Header () {
@@ -20,10 +21,10 @@ function Header () {
       </section>
       <section className="header-bottom">
         <section className="header-bottom__phone">
-          mental help number here
+          1-800-950-NAMI (6264)
         </section>
         <section className="header-bottom__email">
-          link to disclaimer here
+          <a href='../disclaimer.html'>Disclaimer</a>
         </section>
       </section>
     </section>
