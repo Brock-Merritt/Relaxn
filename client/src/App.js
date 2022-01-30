@@ -16,6 +16,8 @@ import Angry from "./Pages/Angry";
 import Stressed from "./Pages/Stressed";
 import Tired from "./Pages/Tired";
 
+import './App.css'
+
 
 const client = new ApolloClient({
   request: (operation) => {
