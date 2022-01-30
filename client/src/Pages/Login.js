@@ -47,7 +47,7 @@ const Login = () => {
             <form onSubmit={handleFormSubmit}>
               <input
                 className="form-input"
-                placeholder="Your email"
+                placeholder="Email Address"
                 name="email"
                 type="email"
                 id="email"
@@ -57,7 +57,7 @@ const Login = () => {
               />
               <input
                 className="form-input"
-                placeholder="******"
+                placeholder="Password"
                 name="password"
                 type="password"
                 id="password"
