@@ -11,11 +11,11 @@ function Home() {
         <div>
             <h1 className="main-title">How are you feeling today?</h1>
             <div className="emotion-icon">
-                <Link to="/Happy">😊</Link>
-                <Link to="/Sad">😞</Link>
-                <Link to="/Stressed">😣</Link>
-                <Link to="/Angry">😠</Link>
-                <Link to="/Tired">😴</Link>
+                <Link to="/Happy"><font size="+4">😊</font></Link>
+                <Link to="/Sad"><font size="+4">😞</font></Link>
+                <Link to="/Stressed"><font size="+4">😣</font></Link>
+                <Link to="/Angry"><font size="+4">😠</font></Link>
+                <Link to="/Tired"><font size="+4">😴</font></Link>
             </div>
             <div className="emotion-name">
                 <div>Happy</div>
