@@ -1,6 +1,6 @@
 import React from "react";
 import cute from '../../assets/sad.jpg';
-// import { Card } from 'react-bootstrap';
+import hug from '../../assets/hug.png';
 
 const Sad = () => {
     return(
@@ -8,11 +8,16 @@ const Sad = () => {
         <div className="top-row">
             <div className="card">
                 <div className="card-img-top">
-                    <img  src={cute} alt="Cute puppy and kitten" className="emotion-img"></img>
+                    <img  src={cute} alt="Cute puppy and kitten" className="sad-img"></img>
                 </div>
             </div>
             <div className="card">
-                <div>Insert quote here</div>
+                <div className="quote">"Be strong now because things will get better. It might be stormy now, but it can't rain forever."</div>
+            </div>
+            <div className="card">
+                <div className="card-img-top">
+                    <img  src={hug} alt="Hugging cartoon" className="hug-img"></img>
+                </div>
             </div>
         </div>
         <div className="bottom-row">
@@ -20,32 +25,9 @@ const Sad = () => {
                 <div>Insert gif here</div>
             </div>
             <div className="card">
-                <div>Insert music link or video here</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ihUF8pbphbk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="music"></iframe>
             </div>
         </div>
-
-{/* how the layout will be once react-bootstrap imports correctly */}
-
-        {/* <div>
-            <Card>
-                <Card.Img variant="top" src={cute} alt="Puppy and kitten cuddling!" />
-                <Card.Body>Enjoy this picture of a puppy and kitten cuddling!</Card.Body>
-            </Card>
-            <Card>
-                <Card.Link />
-                <Card.Body>Enjoy this picture of a puppy and kitten cuddling!</Card.Body>
-            </Card>
-        </div>
-        <div>
-            <Card>
-                <Card.Img variant="top" src={cute} alt="Puppy and kitten cuddling!" />
-                <Card.Body>Enjoy this picture of a puppy and kitten cuddling!</Card.Body>
-            </Card>
-            <Card>
-                <Card.Link />
-                <Card.Body>Enjoy this picture of a puppy and kitten cuddling!</Card.Body>
-            </Card>
-        </div> */}
         </>
     )
 }

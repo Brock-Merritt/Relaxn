@@ -1,16 +1,16 @@
 import React from "react";
-
+import anger from "../../assets/anger.png"
 const Angry = () =>  {
     return (
         <>
             <div className="top-row">
                 <div className="card">
-                    <div className="card-img-top">
-                        <div>Insert image here</div>
-                    </div>
+                    <div className="quote">"You will not be punished for your anger, you will be punished by your anger." <div class="cite">Buddha</div></div>
                 </div>
                 <div className="card">
-                    <div>Insert quote here</div>
+                    <div className="card-img-top">
+                        <img src={anger} alt="Anger quote" className="anger-img"></img>
+                    </div>
                 </div>
             </div>
             <div className="bottom-row">
@@ -21,29 +21,6 @@ const Angry = () =>  {
                     <div>Insert music link or video here</div>
                 </div>
             </div>
-    
-    {/* how the layout will be once react-bootstrap imports correctly */}
-    
-            {/* <div>
-                <Card>
-                    <Card.Img variant="top" src={cute} alt="Puppy and kitten cuddling!" />
-                    <Card.Body>Enjoy this picture of a puppy and kitten cuddling!</Card.Body>
-                </Card>
-                <Card>
-                    <Card.Link />
-                    <Card.Body>Enjoy this picture of a puppy and kitten cuddling!</Card.Body>
-                </Card>
-            </div>
-            <div>
-                <Card>
-                    <Card.Img variant="top" src={cute} alt="Puppy and kitten cuddling!" />
-                    <Card.Body>Enjoy this picture of a puppy and kitten cuddling!</Card.Body>
-                </Card>
-                <Card>
-                    <Card.Link />
-                    <Card.Body>Enjoy this picture of a puppy and kitten cuddling!</Card.Body>
-                </Card>
-            </div> */}
             </>
         )
 }

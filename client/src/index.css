@@ -152,9 +152,53 @@ footer {
   justify-content: center; */
 }
 
-
-.emotion-img {
+/* sad styling */
+.sad-img {
   width: 650px;
   height: auto;
-  margin-left: 20px;
+  margin-left: 50px;
+}
+
+.hug-img{
+  width: 500px;
+  height: auto;
+}
+
+.quote{
+  font-size: 60px;
+  font-weight: bolder;
+  color: var(--tertiary-color);
+  display: block;
+  margin-top: 60px;
+  margin-left: 60px;
+  width: 500px;
+}
+
+.cite {
+  font-style: italic;
+  color: var(--tertiary-color);
+}
+
+.anger-img{
+  margin-left: 150px;
+  width: 550px;
+}
+
+.music{
+  margin-bottom: 35px;
+}
+
+/* happy styling */
+.affirmation {
+  width: 450px;
+  font-size: 43px;
+  color: var(--secondary-color);
+  margin-left: 150px;
+  margin-top: 60px;
+}
+
+.affirmation li {
+  list-style-type: none;
+  color: var(--secondary-color);
+  font-weight: bolder;
 }
