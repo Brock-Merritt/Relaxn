@@ -189,11 +189,16 @@ footer {
 }
 
 /* happy styling */
+
+.dance{
+  margin-left: 40px;
+}
+
 .affirmation {
   width: 450px;
   font-size: 43px;
   color: var(--tertiary-color);
-  margin-left: 150px;
+  margin-left: 90px;
   margin-top: 60px;
 }
 
@@ -207,9 +212,20 @@ footer {
 .sleep-quote{
   width: 500px;
   height: 500px;
+  margin-left: 120px;
+  border-radius: 50%;
 }
 
 .bottom-vid {
-  margin-bottom: 60px;
-  margin-left: 50px;
+  margin: 60px 130px;
+}
+
+.tired {
+  width: 300px;
+  height: 300px;
+  margin-left: 80px;
+}
+
+.stars{
+  width: 1000px;
 }
