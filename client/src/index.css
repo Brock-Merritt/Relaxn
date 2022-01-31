@@ -192,14 +192,14 @@ footer {
 .affirmation {
   width: 450px;
   font-size: 43px;
-  color: var(--secondary-color);
+  color: var(--tertiary-color);
   margin-left: 150px;
   margin-top: 60px;
 }
 
 .affirmation li {
   list-style-type: none;
-  color: var(--secondary-color);
+  color: var(--tertiary-color);
   font-weight: bolder;
 }
 

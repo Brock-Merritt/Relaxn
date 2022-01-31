@@ -1,5 +1,5 @@
 import React from "react";
-import dance from '../../assets/happy.gif';
+import dance from '../../assets/dance.gif';
 
 const Happy = () =>  {
     return (
@@ -9,7 +9,7 @@ const Happy = () =>  {
             <iframe width="560" height="315" src="https://www.youtube.com/embed/ZbZSe6N_BXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div className="card">
-                <img src={dance} alt="Snoopy happy dancing"></img>
+                <img src={dance} alt="Happy dance"></img>
             </div>
                 <div className="card">
                     <div className="affirmation">I am..
