@@ -1,12 +1,18 @@
 import React from "react";
+import breathe from "../../assets/breathe.gif";
 
 const Stressed = () =>  {
     return (
             <>
             <div className="top-row">
                 <div className="card">
-                    <div className="card-img-top">
+                    <div>
                         <div>Insert image here</div>
+                    </div>
+                </div>
+                <div className="card">
+                    <div>
+                        <img src={breathe} alt="Inhale - Exhale meditation"></img>
                     </div>
                 </div>
                 <div className="card">
