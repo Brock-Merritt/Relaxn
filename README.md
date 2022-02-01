@@ -54,7 +54,7 @@
 
 **_HEROKU_**
 
-- Deployed link:[]()
+- Deployed link:[https://relaxn.herokuapp.com/](https://relaxn.herokuapp.com/)
 
 **_GITHUB_**
 
@@ -62,7 +62,7 @@
 
 **_SCREENSHOT_**
 
-
+![screenshot](./client/src/assets/screenshot.png)
 ## Usage
 
 Run the following commands:
