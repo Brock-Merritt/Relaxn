@@ -20,9 +20,9 @@
 
 ## Description:
 
-:disappointed: <!-- sad --> :blush: <!-- happy --> :angry:<!-- angry -->
-:sleeping: <!-- tired --> :persevere:<!-- stressed -->
-<p>How Are You Feeling Today?</p>
+<p align="center">:disappointed: <!-- sad --> :blush: <!-- happy --> :angry:<!-- angry -->
+:sleeping: <!-- tired --> :persevere:<!-- stressed -->How Are You Feeling Today?:disappointed: <!-- sad --> :blush: <!-- happy --> :angry:<!-- angry -->
+:sleeping: <!-- tired --> :persevere:<!-- stressed --></p>
 <p>Relaxn is an interactive web application that custom-tailors a hangout space based upon the user's emotions.</p>
 <p>(Built using MongoDB, Express, React, and Node.js)</p>
 
