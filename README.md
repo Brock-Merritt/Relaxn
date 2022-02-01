@@ -100,4 +100,4 @@ Run the following commands:
   
  ***To open an issue :***
  
- GitHub/Issues: [@Tari-Star](https://github.com/Brock-Merritt/Relaxn/issues)
+ GitHub/Issues: [RELAXN](https://github.com/Brock-Merritt/Relaxn/issues)
