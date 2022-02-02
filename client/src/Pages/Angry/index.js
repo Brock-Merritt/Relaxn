@@ -5,7 +5,7 @@ const Angry = () =>  {
         <>
             <div className="top-row">
                 <div className="card">
-                    <div className="quote">"You will not be punished for your anger, you will be punished by your anger." <div class="cite">Buddha</div></div>
+                    
                 </div>
                 <div className="card">
                     <div className="card-img-top">
