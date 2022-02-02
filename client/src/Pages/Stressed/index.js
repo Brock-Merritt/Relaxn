@@ -7,7 +7,7 @@ const Stressed = () =>  {
             <div className="top-row">
                 <div className="card">
                     <div>
-                        <div>Insert image here</div>
+                        <div class="prioritize">Prioritize! Use this <a href="https://caseylister.github.io/taskinator/" target="_blank">to do list </a>to keep track of what needs to be done! And always remember to prioritize YOURSELF!</div>
                     </div>
                 </div>
                 <div className="card">
@@ -24,32 +24,9 @@ const Stressed = () =>  {
                     <div>Insert gif here</div>
                 </div>
                 <div className="card">
-                    <div>Insert music link or video here</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/UfcAVejslrU?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
-    
-    {/* how the layout will be once react-bootstrap imports correctly */}
-    
-            {/* <div>
-                <Card>
-                    <Card.Img variant="top" src={cute} alt="Puppy and kitten cuddling!" />
-                    <Card.Body>Enjoy this picture of a puppy and kitten cuddling!</Card.Body>
-                </Card>
-                <Card>
-                    <Card.Link />
-                    <Card.Body>Enjoy this picture of a puppy and kitten cuddling!</Card.Body>
-                </Card>
-            </div>
-            <div>
-                <Card>
-                    <Card.Img variant="top" src={cute} alt="Puppy and kitten cuddling!" />
-                    <Card.Body>Enjoy this picture of a puppy and kitten cuddling!</Card.Body>
-                </Card>
-                <Card>
-                    <Card.Link />
-                    <Card.Body>Enjoy this picture of a puppy and kitten cuddling!</Card.Body>
-                </Card>
-            </div> */}
             </>
         )
 }
