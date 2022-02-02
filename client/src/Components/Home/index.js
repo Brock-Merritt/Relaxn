@@ -1,12 +1,48 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Happy from "../../Pages/Happy/index.js";
-import Sad from "../../Pages/Sad/index.js";
-import Stressed from "../../Pages/Stressed/index.js";
-import Angry from "../../Pages/Angry/index.js";
-import Tired from "../../Pages/Tired/index.js";
+
+import { useParams } from "react-router-dom";
+
+import { QUERY_USER, QUERY_ME } from "../../utils/queries";
+import { useQuery } from '@apollo/react-hooks'
+
+
 
 function Home() {
+    const { username: userParam } = useParams();
+    const  data  = useQuery(userParam ? QUERY_USER : QUERY_ME, {
+        variables: { username: userParam },
+      });
+      const user = data?.me || data?.user || {};
+
+      if (!user?.username) {
+        return (
+            <div>
+          <h4>
+            You need to be logged in to use this page. Use the navigation links
+            above to sign up or log in!
+          </h4>
+                  <div>
+                  <h1 className="main-title">How are you feeling today?</h1>
+                  <div className="emotion-icon">
+                      <font size="+4">😊</font>
+                      <font size="+4">😞</font>
+                      <font size="+4">😣</font>
+                      <font size="+4">😠</font>
+                      <font size="+4">😴</font>
+                  </div>
+                    <div className="emotion-name">
+                            <div>Happy</div>
+                            <div>Sad</div>
+                            <div>Stressed</div>
+                            <div>Angry</div>
+                            <div>Tired</div>
+                    </div>
+                  </div>
+          </div>
+        );
+      }
+    if(user?.username) {
     return (
         <div>
             <h1 className="main-title">How are you feeling today?</h1>
@@ -26,6 +62,7 @@ function Home() {
             </div>
         </div>
     )
+    }
 }
 
 export default Home;
