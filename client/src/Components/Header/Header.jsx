@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../navbar/Navbar';
+import Modal from '../../Components/Modal/Modal'
 
 
 import './Header.css';
@@ -24,7 +25,8 @@ function Header () {
           1-800-950-NAMI (6264)
         </section>
         <section className="header-bottom__email">
-          <a href='../disclaimer.html'>Disclaimer</a>
+          {/* <a href='../disclaimer.html' target="_blank" rel="noreferrer">Disclaimer</a> */}
+          <Modal />
         </section>
       </section>
     </section>

@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { ApolloProvider } from "@apollo/react-hooks";
 import ApolloClient from "apollo-boost";
+// import Modal from './Components/Modal/Modal'
 
 
 import Header from "./Components/Header/index.js";
@@ -38,6 +39,7 @@ function App() {
       <Router>
         <>
           <Header />
+          {/* <Modal /> */}
           <div className="container">
             <Switch>
               <Route exact path="/" component={Home} />
