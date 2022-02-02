@@ -9,7 +9,7 @@ const Happy = () =>  {
             <iframe width="560" height="315" src="https://www.youtube.com/embed/ZbZSe6N_BXs?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div className="card">
-                <img className="dance" src={dance} alt="Happy dance"></img>
+                
             </div>
                 <div className="card">
                     <div className="affirmation">I am..
@@ -26,10 +26,10 @@ const Happy = () =>  {
             </div>
             <div className="bottom-row">
                 <div className="card">
-                    <div>Insert gif here</div>
+                    <img className="dance" src={dance} alt="Happy dance"></img>
                 </div>
                 <div className="card">
-                <iframe className="bottom-vid" width="560" height="315" src="https://www.youtube.com/embed/eH3giaIzONA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe className="bottom-vid" width="560" height="315" src="https://www.youtube.com/embed/eH3giaIzONA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
             </>

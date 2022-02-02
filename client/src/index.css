@@ -146,61 +146,61 @@ footer {
 .top-row, .bottom-row{
   display: flex;
   flex: 50%;
-  margin-top: 70px;
+  margin-top: 60px;
   margin-left: 65px;
-  /* align-items: center;
-  justify-content: center; */
+}
+
+.bottom-vid {
+  margin: 60px 130px;
 }
 
 /* sad styling */
 .sad-img {
-  width: 650px;
-  height: auto;
-  margin-left: 50px;
-}
-
-.hug-img{
   width: 500px;
   height: auto;
   margin-left: 20px;
+  margin-top: 60px;
+}
+
+.hug-img{
+  width: 400px;
+  height: auto;
+  margin-top: 80px;
+  border-radius: 50%;
 }
 
 .quote{
-  font-size: 60px;
+  font-size: 55px;
   font-weight: bolder;
   color: var(--tertiary-color);
   display: block;
   margin-top: 60px;
-  margin-left: 60px;
-  width: 500px;
+  margin-left: 30px;
+  width: 400px;
 }
 
-.cite {
-  font-style: italic;
-  color: var(--tertiary-color);
+.enough{
+  
 }
+
+/* angry styling */
 
 .anger-img{
   margin-left: 150px;
   width: 550px;
 }
 
-.music{
-  margin-bottom: 35px;
-}
 
 /* happy styling */
 
 .dance{
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .affirmation {
-  width: 450px;
+  width: 400px;
   font-size: 43px;
   color: var(--tertiary-color);
-  margin-left: 90px;
-  margin-top: 60px;
 }
 
 .affirmation li {
@@ -210,6 +210,7 @@ footer {
 }
 
 /* sleep styling */
+
 .sleep-quote{
   width: 500px;
   height: 500px;
@@ -217,15 +218,16 @@ footer {
   border-radius: 50%;
 }
 
-.bottom-vid {
-  margin: 60px 130px;
+.stars{
+  width: 600px;
 }
 
-.stars{
-  width: 900px;
+.counting-sheep{
+  margin-left: 20px;
 }
 
 /* stressed styling */
+
 .prioritize {
   font-size: 34px;
   width: 450px;
