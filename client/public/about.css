@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Righteous&display=swap');
+
+/* MEET THE DEVS START */
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+}
+a:link, a:visited {
+    text-decoration: none;
+    display: inline-block;
+    color: #7a9dbc;
+}
+
+body {
+    background-color: #c6e2e9;
+}
+
+.section-title {
+    font-size: 30px;
+    text-align: center;
+    color: #7a9dbc;
+  }
+  .devs {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .dev {
+    margin: 20px;
+    flex: 1;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+  }
+  
+  .dev img {
+    width: 100%;
+  }
+  
+  .dev-bio {
+    padding: 25px;
+    line-height: 1.3;
+    color: #7a9dbc;
+  }
+  
+  .dev-bio h3 {
+    font-size: 28px;
+  }
+  
+  .dev-bio h4 {
+    font-weight: lighter;
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
+  .dev-bio p {
+    font-size: 17px;
+  }
+  .dev-footer {
+   float: left;
+  }
+
+  footer h2, footer div {
+    text-align: center;
+    width: 100%;
+    color: #7a9dbc;
+  }
