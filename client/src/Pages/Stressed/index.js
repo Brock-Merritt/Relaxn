@@ -1,5 +1,6 @@
 import React from "react";
 import breathe from "../../assets/breathe.gif";
+import chill from "../../assets/calm.jpg";
 
 const Stressed = () =>  {
     return (
@@ -11,7 +12,10 @@ const Stressed = () =>  {
                     </div>
                 </div>
                 <div className="card">
-                    <div>Insert quote here</div>
+                    <div className="break-time">Take a break! You deserve it.</div>
+                </div>
+                <div className="card">
+                    <img src={chill} alt="Relaxing Stacked Stones" className="chill"></img>
                 </div>
             </div>
             <div className="bottom-row">
