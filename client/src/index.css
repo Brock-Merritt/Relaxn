@@ -186,30 +186,36 @@ footer {
 }
 
 /* angry styling */
+.angry{
+  width: 700px;
+}
 
 .anger-img{
   margin-left: 150px;
-  width: 550px;
+  width: 500px;
+  height: 550px;
+}
+
+.angry-bird{
+  margin-left: 500px;
+  margin-top: 50px;
 }
 
 
 /* happy styling */
+.pharrell{
+  margin-left: 40px;
+}
 
 .dance{
   margin-left: 30px;
 }
 
-.sunflower{
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  margin-left: 90px;
-}
-
 .affirmation {
-  width: 400px;
+  width: 550px;
   font-size: 43px;
   color: var(--tertiary-color);
+  line-height: 1.5em;
 }
 
 .affirmation li {
