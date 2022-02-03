@@ -25,7 +25,7 @@ const Sad = () => {
                 <iframe className="enough" src="https://giphy.com/embed/xT77XOVcx7KPcNVihi" width="500" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><a href="https://giphy.com/gifs/creativemornings-you-are-awesome-kitty-lo-xT77XOVcx7KPcNVihi"></a>
             </div>
             <div className="card">
-                <iframe width="500" height="315" src="https://www.youtube.com/embed/ihUF8pbphbk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="bottom-vid"></iframe>
+                <iframe width="500" height="315" src="https://www.youtube.com/embed/ihUF8pbphbk?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="bottom-vid"></iframe>
             </div>
         </div>
         </>

@@ -7,9 +7,7 @@ const Happy = () =>  {
         <>
             <div className="top-row">
             <div className="card">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ZbZSe6N_BXs?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div className="card"> 
+                <iframe className="pharrell" width="600" height="355" src="https://www.youtube.com/embed/ZbZSe6N_BXs?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
                 <div className="card">
                     <div className="affirmation">I am..
