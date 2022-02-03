@@ -110,6 +110,14 @@
   -webkit-text-fill-color: transparent;
 }
 
+.smiles{
+  opacity: 0.8;
+  border-radius: 50%;
+  margin-top: 70px;
+  width: 500px;
+  margin-bottom: 70px;
+}
+
 .emotion-icon {
   margin: 50px 85px;
   display: flex;

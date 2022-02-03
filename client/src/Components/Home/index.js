@@ -37,7 +37,7 @@ const Home = () => {
       ) : (
         <>
         <h4>Please Login or Signup</h4>
-        <h1 className="main-title">How are you feeling today?</h1>
+        {/* <h1 className="main-title">How are you feeling today?</h1> */}
          <img className="smiles" src={smiles} alt="smiles"></img>
         </>
       )}
