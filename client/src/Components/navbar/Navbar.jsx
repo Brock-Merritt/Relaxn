@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import Auth from "../../utils/auth";
 
+
 function Navbar() {
   const logout = (event) => {
     event.preventDefault();
