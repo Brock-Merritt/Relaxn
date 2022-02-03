@@ -84,7 +84,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: RobotoRegular;
+    font-family:'Poppins', sans-serif;
     right: 0px;
     top: -5px;
     width: 20px;
@@ -92,4 +92,9 @@
     background-color: red;
     border-radius: 10px;
     color: white;
+  }
+
+  a:hover {
+    font-weight: 900;
+  
   }
