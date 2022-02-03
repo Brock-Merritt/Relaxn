@@ -4,6 +4,7 @@ import Modal from '../../Components/Modal/Modal'
 
 
 import './Header.css';
+import ModalSecondary from '../Modal/Modal-secondary';
 
 function Header () {
 
@@ -22,7 +23,8 @@ function Header () {
       </section>
       <section className="header-bottom">
         <section className="header-bottom__phone">
-          1-800-950-NAMI (6264)
+          {/* 1-800-950-NAMI (6264) */}
+          <ModalSecondary />
         </section>
         <section className="header-bottom__email">
           {/* <a href='../disclaimer.html' target="_blank" rel="noreferrer">Disclaimer</a> */}

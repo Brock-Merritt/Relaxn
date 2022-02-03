@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Modal.css";
 
-export default function Modal() {
+export default function ModalSecondary() {
   const [modal, setModal] = useState(false);
 
   const toggleModal = () => {
@@ -17,24 +17,21 @@ export default function Modal() {
   return (
     <>
       <button onClick={toggleModal} className="navbar-item">
-        Disclaimer
+        1-800-950-NAMI (6264)
       </button>
 
       {modal && (
         <div className="modal">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modal-content">
-            <h2>Disclaimer</h2>
+            <h2>Who is NAMI?</h2>
             <p>
-            "This tool does not provide medical advice. It is intended for informational purposes only. It is not a substitute for professional medical advice, diagnosis or treatment. Never ignore professional medical advice in seeking treatment because of something you have read on the Relaxn Site. If you think you may have a medical emergency, immediately call your doctor or dial 911."
+            "NAMI, the National Alliance on Mental Illness, is the nation’s largest grassroots mental health organization dedicated to building better lives for the millions of Americans affected by mental illness. NAMI provides advocacy, education, support and public awareness so that all individuals and families affected by mental illness can build better lives. Call the NAMI Helpline at 800-950-NAMI Or in a crisis, text "NAMI" to 741741. 
             </p>
             <button className="close-modal" onClick={toggleModal}>
               CLOSE
             </button>
           </div>
-          <button onClick={toggleModal} className="navbar-item">
-        1-800-950-NAMI(6264)
-      </button>
 
         </div>
       )}

@@ -43,3 +43,9 @@ body.active-modal {
     right: 10px;
     padding: 5px 7px;
 }
+
+.navbar-item {
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
