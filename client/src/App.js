@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { ApolloProvider } from "@apollo/react-hooks";
 import ApolloClient from "apollo-boost";
-// import Modal from './Components/Modal/Modal'
+
 
 
 import Header from "./Components/Header/index.js";
@@ -16,6 +16,7 @@ import Sad from "./Pages/Sad";
 import Angry from "./Pages/Angry";
 import Stressed from "./Pages/Stressed";
 import Tired from "./Pages/Tired";
+
 
 import './App.css'
 
@@ -38,9 +39,9 @@ function App() {
     <ApolloProvider client={client}>
       <Router>
         <>
-          <Header />
-          {/* <Modal /> */}
+          <Header />  
           <div className="container">
+         
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/login" component={Login} />

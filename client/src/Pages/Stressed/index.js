@@ -21,7 +21,7 @@ const Stressed = () =>  {
             <div className="bottom-row">
                 <div className="card">
                     <div>
-                        <div class="prioritize">Prioritize! Use this <a href="https://caseylister.github.io/taskinator/" target="_blank">to do list </a>to keep track of what needs to be done! And always remember to prioritize YOURSELF!</div>
+                        <div class="prioritize">Prioritize! Use this <a href="https://caseylister.github.io/taskinator/" target="_blank" rel="noreferrer">to do list </a>to keep track of what needs to be done! And always remember to prioritize YOURSELF!</div>
                     </div>
                 </div>
                 <div className="card">

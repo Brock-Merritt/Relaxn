@@ -127,52 +127,7 @@
 }
 
 
-/* MEET THE TRAINERS START */
 
-.section-title {
-  font-size: 30px;
-  text-align: center;
-}
-.trainers {
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.trainer {
-  margin: 20px;
-  flex: 1;
-  background: var(--secondary-color);
-  color: var(--primary-color);
-}
-
-.trainer img {
-  width: 100%;
-}
-
-.trainer-bio {
-  padding: 25px;
-  line-height: 1.3;
-}
-
-.trainer-bio h3 {
-  font-size: 28px;
-}
-
-.trainer-bio h4 {
-  font-weight: lighter;
-  font-size: 22px;
-  margin-bottom: 15px;
-}
-
-.trainer-bio p {
-  font-size: 17px;
-}
-.dev-footer {
- float: left;
-}
 /* footer */
 
 footer {

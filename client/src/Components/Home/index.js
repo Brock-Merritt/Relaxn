@@ -18,18 +18,18 @@ function Home() {
       if (!user?.username) {
         return (
             <div>
-          <h4>
+          {/* <h4>
             You need to be logged in to use this page. Use the navigation links
             above to sign up or log in!
-          </h4>
+          </h4> */}
                   <div>
                   <h1 className="main-title">How are you feeling today?</h1>
                   <div className="emotion-icon">
-                      <font size="+4">😊</font>
-                      <font size="+4">😞</font>
-                      <font size="+4">😣</font>
-                      <font size="+4">😠</font>
-                      <font size="+4">😴</font>
+                  <Link to="/Happy"><font size="+4">😊</font></Link>
+                <Link to="/Sad"><font size="+4">😞</font></Link>
+                <Link to="/Stressed"><font size="+4">😣</font></Link>
+                <Link to="/Angry"><font size="+4">😠</font></Link>
+                <Link to="/Tired"><font size="+4">😴</font></Link>
                   </div>
                     <div className="emotion-name">
                             <div>Happy</div>
@@ -66,4 +66,3 @@ function Home() {
 }
 
 export default Home;
-
