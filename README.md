@@ -54,7 +54,7 @@
 
 **_HEROKU_**
 
-- Deployed link:[https://relaxn.herokuapp.com/](https://relaxn.herokuapp.com/)
+- Deployed link: [https://relaxn.herokuapp.com/](https://relaxn.herokuapp.com/)
 
 **_GITHUB_**
 

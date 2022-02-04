@@ -8,6 +8,7 @@
   font-family: 'Montserrat', sans-serif;
   background: #c6e2e9;
   color: var(--primary-color);
+ 
 }
 
 /* color pallet */
@@ -97,6 +98,14 @@
   padding: 20px auto;
 }
 
+@media(max-width:800px){
+  .main-header, .main-header div a, .main-nav  {
+  padding: 12px;
+  display: grid;
+  gap: 1.335rem;
+  }
+}
+
 
 /* main page */
 
@@ -134,14 +143,21 @@
   color: var(--secondary-color);
 }
 
+@media(max-width:800px){
+  .main-title, .smiles, .emotion-icon, .emotion-name  {
+  padding: 12px;
+  display: grid;
+  gap: 1.335rem;
+  }
+}
 
 
 /* footer */
 
 footer {
-  margin-top:100px;
+  margin-top:80px;
   bottom: 0;
-  position: relative;
+  position: fixed;
   width: 100%;
   height: 2.5rem;
 }
@@ -292,3 +308,76 @@ footer {
   margin-top: 130px;
   margin-right: 40px;
 }
+
+@media (max-width:1200px) 
+{
+    
+
+    .text {
+        white-space: nowrap;
+        line-height: 30px;
+    
+    }
+
+
+    .buttons button {
+        padding: 8px 20px;
+    }
+    
+    
+
+
+}
+
+@media (max-width:600px) {
+
+    .main__content {
+        margin-left: 0;
+    }
+
+    .main__container {
+        text-align: center;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .main__img img {
+        width: 250px;
+    }
+
+  }
+  @media screen and (max-width: 575px) {
+    .main__content {
+      width: 100%;
+    }
+  
+    .section-title {
+      width: 95%;
+    }
+  
+    .intro p {
+      width: 100%;
+    }
+  
+    .trainer {
+      flex: 0 100%;
+    }
+  
+    .contact-info {
+      text-align: center;
+    }
+  
+    .contact-info > * {
+      flex: 0 100%;
+    }
+  
+    .contact-form {
+      order: 3;
+    }
+  }
+
+
+
+
+
+
