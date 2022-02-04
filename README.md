@@ -60,9 +60,12 @@
 
 - Repository link: https://github.com/Brock-Merritt/Relaxn
 
-**_SCREENSHOT_**
+**_SCREENSHOTS:_**
 
-![screenshot](./client/src/assets/screenshot.png)
+![screenshot](./client/src/assets/start-page.png)
+
+![screenshot](./client/src/assets/home-page.png)
+
 ## Usage
 
 Run the following commands:
