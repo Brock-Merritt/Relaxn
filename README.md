@@ -26,7 +26,7 @@
 <p align="center">Relaxn is an interactive web application that custom-tailors a hangout space based upon the user's emotions.</p>
 <p align="center">(Built using MongoDB, Express, React, and Node.js)</p>
 
-## Table of Contens
+## Table of Contents
 
 - [Collaborators](#collaborators)
 - [Demo](#demo)
